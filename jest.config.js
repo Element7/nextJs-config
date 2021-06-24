@@ -7,6 +7,7 @@ module.exports = {
     '@pages/(.*)': '<rootDir>/pages/$1',
     '@styles/(.*)': '<rootDir>/styles/$1',
   },
+  testEnvironment: 'jsdom',
   coverageDirectory: 'coverage',
   collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}', 'pages/**/*.{js,jsx,ts,tsx}'],
   coverageThreshold: {
